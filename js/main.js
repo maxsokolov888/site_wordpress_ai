@@ -92,6 +92,8 @@
     galleryTabs.forEach((tab) => tab.addEventListener('click', () => {
       galleryMain.dataset.view = tab.dataset.view;
       galleryMain.setAttribute('aria-label', labels[tab.dataset.view] || 'Фотография объекта');
+      galleryMain.src = tab.dataset.image || galleryMain.src;
+      galleryMain.alt = labels[tab.dataset.view] || 'Фотография объекта';
       galleryTabs.forEach((item) => {
         const selected = item === tab;
         item.classList.toggle('active', selected);
