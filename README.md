@@ -1,1 +1,1 @@
-# site_wordpress_ai
+Учебный сайт для конвертера AI WordPress — сервиса «Инспектор» от клуба Web-Step.ru
