@@ -14,3 +14,29 @@
 .hero__avatars .team-photo{background-image:url('../assets/team-avatars-triptych.webp');background-size:300% 100%}.hero__avatars .team-photo--man{background-position:left center}.hero__avatars .team-photo--woman{background-position:center center}.hero__avatars .team-photo--last-man{background-position:right center}
 .amenities__photo{background-image:url('../assets/amenity-courtyard.webp');background-position:center;background-size:cover}.amenities__photo--wide{background-image:url('../assets/amenity-architecture.webp');background-position:center;background-size:cover}.team-gallery .team-photo{background-image:url('../assets/team-broker.webp');background-position:center top;background-size:cover}.team-gallery .team-photo--woman{background-image:url('../assets/team-advisor.webp');background-position:center top}.team-gallery .team-photo--large{background-image:none}.gallery-main{background-image:none;background-color:#e5eff6;object-fit:cover}.gallery-thumb{width:100%;height:105px;background-image:none;object-fit:cover}.slide{background-position:center;background-size:cover}.slide:nth-child(1){background-image:linear-gradient(0deg,#111d36b8,transparent 65%),url('../assets/slider-01.webp')}.slide:nth-child(2){background-image:linear-gradient(0deg,#111d36b8,transparent 65%),url('../assets/slider-02.webp')}.slide:nth-child(3){background-image:linear-gradient(0deg,#111d36b8,transparent 65%),url('../assets/slider-03.webp')}.slide:nth-child(4){background-image:linear-gradient(0deg,#111d36b8,transparent 65%),url('../assets/slider-04.webp')}.slide:nth-child(5){background-image:linear-gradient(0deg,#111d36b8,transparent 65%),url('../assets/slider-05.webp')}
 @media(max-width:640px){.gallery-thumb{height:72px}}
+
+/* Company page */
+.about-hero{padding-bottom:68px}
+.about-story{display:grid;grid-template-columns:1.1fr .9fr;gap:70px;align-items:center}
+.about-story__copy h2{margin:12px 0 24px}
+.about-story__copy p:not(.eyebrow){max-width:560px;margin:14px 0;color:#44506a;font-size:16px;line-height:1.8}
+.about-story__facts{display:grid;grid-template-columns:1fr 1fr;gap:0;border-top:1px solid var(--line)}
+.about-story__facts div{padding:22px 14px 20px 0;border-bottom:1px solid var(--line)}
+.about-story__facts strong{display:block;color:var(--blue);font-size:42px;line-height:1}
+.about-story__facts strong span{font-size:26px}
+.about-story__facts small{display:block;max-width:130px;margin-top:8px;color:var(--muted);font-size:11px;line-height:1.4}
+.about-values{width:100vw;margin-left:calc(50% - 50vw);padding-right:max(36px,calc((100vw - var(--container))/2));padding-left:max(36px,calc((100vw - var(--container))/2));background:#e9f6fa}
+.about-values .section-heading{align-items:end}
+.value-card{padding:26px;border-radius:22px;background:#fff}
+.value-card>span{color:var(--blue);font-size:11px;font-weight:700;letter-spacing:.1em}
+.value-card h3{margin:26px 0 12px}
+.value-card p{color:#59657b;font-size:13px;line-height:1.7}
+.about-office__layout{display:grid;grid-template-columns:.7fr 1.3fr;gap:28px;align-items:stretch}
+.about-office__details{display:flex;flex-direction:column;align-items:flex-start;justify-content:center;padding:30px;border-radius:24px;background:var(--ink);color:#fff}
+.about-office__address{margin-bottom:18px;font-size:21px;font-weight:700;line-height:1.25}
+.about-office__details .paragraph-group p:not(.about-office__address){margin-bottom:22px;color:#d5dbea;font-size:13px;line-height:1.8}
+.about-office__details .link{margin-top:9px;color:#b7d0ff}
+.map-frame{min-height:360px;overflow:hidden;border-radius:24px;background:#dceaf2}
+.map-frame iframe{display:block;width:100%;height:100%;min-height:360px;border:0}
+@media(max-width:900px){.about-story{gap:40px}.about-office__layout{grid-template-columns:1fr 1.5fr}}
+@media(max-width:640px){.about-story{grid-template-columns:1fr;gap:34px}.about-story__facts strong{font-size:36px}.about-values .section-heading{align-items:flex-start}.about-values{padding-right:18px;padding-left:18px}.value-card{padding:22px}.value-card h3{margin-top:20px}.about-office__layout{grid-template-columns:1fr}.about-office__details{min-height:280px}.map-frame,.map-frame iframe{min-height:300px}}
