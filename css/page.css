@@ -40,3 +40,9 @@
 .map-frame iframe{display:block;width:100%;height:100%;min-height:360px;border:0}
 @media(max-width:900px){.about-story{gap:40px}.about-office__layout{grid-template-columns:1fr 1.5fr}}
 @media(max-width:640px){.about-story{grid-template-columns:1fr;gap:34px}.about-story__facts strong{font-size:36px}.about-values .section-heading{align-items:flex-start}.about-values{padding-right:18px;padding-left:18px}.value-card{padding:22px}.value-card h3{margin-top:20px}.about-office__layout{grid-template-columns:1fr}.about-office__details{min-height:280px}.map-frame,.map-frame iframe{min-height:300px}}
+
+.pagination-pages {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
